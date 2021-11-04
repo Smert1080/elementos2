@@ -15,7 +15,7 @@
 .posiciontexto {
     width: 900px;
     display: block ;
-    position: absolute;
+    position: relative;
     left: 100px;
-    bottom: 15px;
+    bottom: -80px;
 }
