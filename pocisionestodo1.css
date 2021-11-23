@@ -1,0 +1,91 @@
+body {
+    max-width: 100;
+}
+
+div.content { 
+    width:10px 
+}
+
+
+.posicion3d {
+    display: block ;
+    position: relative;
+    left: 990px;
+    top: 380px;
+}
+
+.posicionencabezado {
+    display: block ;
+    position: absolute;
+    left: -10px;
+    top: -30px;
+}
+
+.posiciontexto {
+    width: 900px;
+    display: block ;
+    position: relative;
+    left: 100px;
+    bottom: -70px;
+}
+
+.back {
+    width: 400px;
+    display: grid;
+    position:relative;
+    left: 30px;
+    bottom: -100px;
+
+}
+
+.boton {
+    display: inline-flex;
+    width: 280px ;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 7px;
+
+}
+
+.boton.cinco span {
+	transition: .4s ease-in-out all;
+	position: absolute;
+	left: 70px;
+}
+
+.boton.cinco .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.boton.cinco svg {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+}
+
+.boton.cinco:hover {
+	background: gray;
+}
+
+.boton.cinco:hover .icono {
+	left: calc(55% - 1px);
+	opacity: 1;
+}
+
+.boton.cinco:hover span {
+	left: 30px;
+}
+
