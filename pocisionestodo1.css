@@ -11,7 +11,7 @@ div.content {
     display: block ;
     position: relative;
     left: 990px;
-    top: 380px;
+    top: 320px;
 }
 
 .posicionencabezado {
@@ -26,7 +26,7 @@ div.content {
     display: block ;
     position: relative;
     left: 100px;
-    bottom: -70px;
+    bottom: -30px;
 }
 
 .back {
@@ -34,7 +34,7 @@ div.content {
     display: grid;
     position:relative;
     left: 30px;
-    bottom: -100px;
+    bottom: -60px;
 
 }
 
@@ -87,5 +87,30 @@ div.content {
 
 .boton.cinco:hover span {
 	left: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: rgb(248, 244, 244);
+
+}
+
+h2 {
+    font-size: 20px ;
+    color:white;
+}
+
+.titulo {
+    width: 1380px;
+    position: absolute;
+    top: -20px;
+}
+
+.autor {
+    width: 400px;
+    position: absolute;
+    top: 210px;
 }
 
