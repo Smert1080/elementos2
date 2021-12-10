@@ -45,7 +45,7 @@ div.content {
     height: 60px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(241, 245, 17);
+    background-color: rgb(151, 153, 9);
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -83,6 +83,11 @@ h1 {
 h2 {
     font-size: 10px ;
     color:blanchedalmond;
+}
+
+h3 {
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .titulo {

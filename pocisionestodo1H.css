@@ -102,6 +102,24 @@ h2 {
     color:white;
 }
 
+h3 {
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+s {
+    text-decoration:none ; 
+    font-size: 9px;
+    font-variant:initial ;
+ }
+
+ p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+
+
 .titulo {
     width: 1380px;
     position: absolute;

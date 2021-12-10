@@ -85,6 +85,17 @@ h2 {
     color:blanchedalmond;
 }
 
+h3 {
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+s {
+    text-decoration:none ; 
+    font-size: 9px;
+    font-variant:initial ;
+ }
+
 .titulo {
     width: 410px;
     position: absolute;
