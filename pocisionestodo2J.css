@@ -4,16 +4,15 @@ body {
 
 div.content { 
      display: grid;
-     gap: 5rem;
-     grid-auto-rows: 18rem;
-     grid-template-columns:repeat(auto-fill, minmax(12rem, 1fr));
+     gap: 7.5rem;
+     grid-auto-rows: 17rem;
+     grid-template-columns:repeat(auto-fill, minmax(6rem, 20%));
 
 }
 
 
 .posicion3d {
-    width: 290px;
-    display:block ;
+    width: 300px;
     padding: 10px;
     position: relative;
     left: -5px;
@@ -32,18 +31,18 @@ div.content {
     box-sizing: border-box;
     padding: 5px;
     position: relative;
-    left: -5px;
+    left: 2%;
     bottom: -230px;
     justify-content: center;
 }
 
 .back {
     width: 280px;
-    height: 80px;
+    height: 100px;
     display: grid;
     position:relative;
-    left: 5px;
-    bottom: -230px;
+    left: 30px;
+    bottom: -250px;
 
 }
 
