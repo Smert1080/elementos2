@@ -1,7 +1,7 @@
 if(screen.width > 1270 )
 
-document.write ('<img src="encabezadoVRC.jpg" width=1395px height=300px>')
+document.write ('<img src="encabezadoVRC.jpg" width=100% height=600px>')
 
 else if (screen.width < 1090 )
 
-document.write ('<img src="encabezadoVRC.jpg" width=440px height=250px>')
+document.write ('<img src="encabezadoVRC.jpg" width=101% height=400px>')
